@@ -1,4 +1,14 @@
 {
+	"name": "gandung/ahp",
+	"type": "library",
+	"description": "AHP implementation in PHP.",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Paulus Gandung Prakosa",
+			"email": "rvn.plvhx@gmail.com"
+		}
+	],
 	"autoload": {
 		"psr-4": {
 			"Gandung\\AHP\\": "src/"
@@ -6,5 +16,6 @@
 	},
 	"require": {
 		"symfony/var-dumper": "^3.3"
-	}
+	},
+	"minimum-stability": "dev-master"
 }
